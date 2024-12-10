@@ -7,25 +7,24 @@
 
                   <div class="item client-carousel-item"><!-- Start of item -->
                   <div class="quotes-icon">
-                      <i class="icon-quotes-left"></i>
+                      <i class="fa-solid fa-user"></i>
                   </div>
-                  <p>The7 is an extraordinary, awesome Theme, I would recommend this Theme to anyone for their next project. Go ahead and download it now!</p>
-                  <h4>-David Bell</h4>
+                  <h2>Chi siamo?</h2>
+                  <font size="4px">
+                     Starcall è una società di call center all'avanguardia, specializzata nella gestione delle comunicazioni tra aziende e clienti. Offriamo soluzioni professionali in ambito customer care, teleselling e supporto tecnico, garantendo sempre un servizio efficiente, personalizzato e di alta qualità. La nostra missione è soddisfare le esigenze dei nostri clienti attraverso un approccio attento e mirato, migliorando l'esperienza complessiva e contribuendo al successo delle aziende con cui collaboriamo.
+                  </font>
+                  <h3>-Noi siamo StarCall</h3>
                   </div><!-- End of item -->
 
                   <div class="item client-carousel-item"><!-- Start of item -->
                   <div class="quotes-icon">
-                      <i class="icon-quotes-left"></i>
+                      <i class="fa-solid fa-question"></i>
                   </div>
-                  <p>The good times are for those who take action. The7 is a simple and easy to use template for creative people. Download this theme and give it a try!</p>
-                  <h4>-Eve Stinger</h4>
-                  </div><!-- End of item -->
-                  <div class="item client-carousel-item"><!-- Start of item -->
-                  <div class="quotes-icon">
-                      <i class="icon-quotes-left"></i>
-                  </div>
-                  <p>Awesome theme! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus incidunt possimus eveniet aperiam, minus deleniti iure ipsa praesentium amet, labore voluptatum fugit earum, porro non sequi sint soluta reprehenderit ad?</p>
-                  <h4>-Will Peters</h4>
+                  <h2>Perché scegliere noi?</h2>
+                  <font size="4px">
+                    Siamo un team di professionisti altamente qualificati, pronti a offrire soluzioni su misura per ogni tua esigenza. Grazie alla nostra esperienza nel settore e all’uso delle tecnologie più avanzate, garantiamo un servizio rapido, preciso ed efficiente, sempre orientato alla soddisfazione del cliente. Ogni interazione con noi è caratterizzata da cortesia, competenza e un impegno costante a risolvere ogni richiesta nel miglior modo possibile, mettendo sempre al primo posto le tue necessità.
+                  </font>
+                  <h3>-Cosa stai aspettando?</h3>
                   </div><!-- End of item -->
 
               </div>
@@ -33,4 +32,3 @@
       </div>
   </section>
 </div>
-<!-- End Quotes Section -->

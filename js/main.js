@@ -156,7 +156,7 @@ $(function() {
 	var $marker_url = ( is_internetExplorer11 ) ? '../i.imgur.com/TYdWTLk.png' : '../i.imgur.com/TYdWTLk.png';
 		
 	//define the basic color of your map, plus a value for saturation and brightness
-	var	$main_color = '#1abc9c',
+	var	$main_color = '#d4d413',
 		$saturation= -20,
 		$brightness= 5;
 

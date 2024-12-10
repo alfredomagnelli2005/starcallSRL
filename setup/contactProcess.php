@@ -1,70 +1,71 @@
 <?php
-// Inizia la sessione per memorizzare eventuali messaggi di errore o successo
-session_start();
+session_start();  // Avvia la sessione
 
-// Controllo se il modulo è stato inviato via POST
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Prendi i dati dal form, usando `trim()` per evitare spazi indesiderati
-    $name = trim($_POST['name']);
-    $email = trim($_POST['email']);
-    $subject = trim($_POST['subject']);
-    $message = trim($_POST['message']);
+// Definisci variabili per i messaggi di errore e successo
+$error = '';
+$success = '';
 
-    // Validazione semplice dei campi (assicurati che non siano vuoti)
-    if (empty($name) || empty($email) || empty($message)) {
-        $_SESSION['error'] = 'Tutti i campi obbligatori devono essere compilati.';
-        header('Location: ../index.php'); // Torna alla pagina con il form
-        exit;
-    }
+// Raccogli e pulisci i dati del modulo
+$name = isset($_POST['name']) ? htmlspecialchars(trim($_POST['name'])) : '';
+$email = isset($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL) : '';
+$subjectEmail = isset($_POST['subject']) ? htmlspecialchars(trim($_POST['subject'])) : '';
+$message = isset($_POST['message']) ? htmlspecialchars(trim($_POST['message'])) : '';
 
-    // Validazione dell'email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $_SESSION['error'] = 'Indirizzo email non valido.';
-        header('Location: ../index.php'); // Torna alla pagina con il form
-        exit;
-    }
-
-    // Imposta i destinatari e altre informazioni per l'email
-    $to = 'alfredomagnelli45@gmail.com';  // Sostituisci con l'indirizzo email del destinatario
-    $from = $email;
-    $headers = "From: $from\r\n";
-    $headers .= "Reply-To: $from\r\n";
-    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-
-    // Oggetto dell'email
-    $email_subject = "Nuovo messaggio da $name: $subject";
-
-    // Corpo dell'email in formato HTML
-    $email_body = "
-    <html>
-    <head>
-        <title>$email_subject</title>
-    </head>
-    <body>
-        <h2>Nuovo messaggio ricevuto:</h2>
-        <p><strong>Nome:</strong> $name</p>
-        <p><strong>Email:</strong> $email</p>
-        <p><strong>Oggetto:</strong> $subject</p>
-        <p><strong>Messaggio:</strong></p>
-        <p>$message</p>
-    </body>
-    </html>
-    ";
-
-    // Funzione mail() di PHP per inviare l'email
-    if (mail($to, $email_subject, $email_body, $headers)) {
-        $_SESSION['success'] = 'Messaggio inviato con successo!';
-    } else {
-        $_SESSION['error'] = 'Si è verificato un errore nell\'invio del messaggio.';
-    }
-
-    // Redirige alla pagina iniziale (index.php) con il messaggio di successo o errore
-    header('Location: ../index.php');
-    exit;
+// Verifica che i campi non siano vuoti e che l'email sia valida
+if (empty($name) || empty($email) || empty($message)) {
+    $error = "Tutti i campi sono obbligatori.";
+} elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $error = "Indirizzo email non valido.";
 } else {
-    // Se il form non è stato inviato tramite POST
-    $_SESSION['error'] = 'Errore: il modulo non è stato inviato correttamente.';
-    header('Location: ../index.php');
-    exit;
+    // Imposta l'indirizzo email del destinatario e l'oggetto
+    $to = 'alfredomagnelli45@gmail.com'; // Sostituisci con il tuo indirizzo email
+    $subject = 'NUOVO MESSAGGIO DAL MODULO DI CONTATTO STARCALL';
+
+    // Crea il corpo del messaggio
+    $email_message = "Nome: $name\n";
+    $email_message .= "Email: $email\n";
+    $email_message .= "Oggetto: $subjectEmail\n";
+    $email_message .= "Messaggio:\n$message\n";
+
+    // Intestazioni dell'email
+    $headers = "From: no-reply@gmail.com\r\n"; // Sostituisci con un indirizzo email valido
+    $headers .= "Reply-To: $email\r\n"; // Usa l'email del mittente come Reply-To
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+
+    // Invia l'email al destinatario principale
+    if (mail($to, $subject, $email_message, $headers)) {
+        // Invia email di conferma al cliente
+        $confirmation_subject = "Conferma di ricezione del messaggio";
+        $confirmation_message = "Ciao $name,\n\n";
+        $confirmation_message .= "Abbiamo ricevuto il tuo messaggio. Ti risponderemo al più presto!\n\n";
+        $confirmation_message .= "Grazie,\nIl team di StarCall S.R.L";
+
+        $confirmation_headers = "From: no-reply@gmail.com\r\n";
+        $confirmation_headers .= "Reply-To: no-reply@gmail.com\r\n";
+        $confirmation_headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+        $confirmation_headers .= "MIME-Version: 1.0\r\n";
+        $confirmation_headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+
+        // Invia l'email di conferma al cliente
+        if (mail($email, $confirmation_subject, $confirmation_message, $confirmation_headers)) {
+            // Memorizza l'email nella sessione
+            $_SESSION['email'] = $email;
+            // Reindirizza alla pagina di conferma in caso di successo
+            header("Location: ty.php");
+            exit();
+        } else {
+            $error = "L'email di conferma non è stata inviata.";
+        }
+    } else {
+        $error = "Si è verificato un errore nell'invio del messaggio.";
+    }
+}
+
+// Reindirizza l'utente al modulo con un messaggio di errore se l'invio dell'email fallisce
+if ($error) {
+    header("Location: contact_form.php?error=" . urlencode($error));
+    exit();
 }
 ?>

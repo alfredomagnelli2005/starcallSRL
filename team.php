@@ -2,85 +2,90 @@
 <div class="wrap team-wrap grey" id="team">
     <div class="grid grid-pad">
         <div class="content" >
-            <h2>Our Team</h2>
-            <div class="col-1-4" >
+            <h2>Il nostro team</h2>
+            <div class="col-1-6" >
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
                             <img src="images/team/user2.png" alt="">
-                            <div class="team-social">
-                                <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
-                                <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
-                                <a class="sl-gp" href="#"><i class="icon-googleplus2"></i></a>
-                                <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
-                            </div>
                         </div>
                         <div class="work-info staff-info">
-                            <h5>Tim Malkovic</h5>
-                            <span>CEO</span>
+                            <h5>Francesco <br> <br>Madeo</h5>
+                            <span>Team Leader</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-1-4" >
+            <div class="col-1-6" >
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
                             <img src="images/team/user1.png" alt="">
-                            <div class="team-social">
-                                <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
-                                <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
-                                <a class="sl-gp" href="#"><i class="icon-googleplus2"></i></a>
-                                <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
-                            </div>
                         </div>
                         <div class="work-info staff-info">
-                            <h5>David Bell</h5>
-                            <span>Creative Designer</span>
+                            <h5>Cinzia <br> <br> Catanzaro</h5>
+                            <span>Team Leader</span>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-1-4" >
+            <div class="col-1-6" >
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
                             <img src="images/team/user3.png" alt="">
-                            <div class="team-social">
-                                <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
-                                <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
-                                <a class="sl-gp" href="#"><i class="icon-googleplus2"></i></a>
-                                <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
-                            </div>
                         </div>
                         <div class="work-info staff-info">
-                            <h5>Eve Stinger</h5>
-                            <span>Sales Manager</span>
+                            <h5>Roberta <br> <br> Riganello</h5>
+                            <span>Team Leader</span>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-1-4" >
+            <div class="col-1-6" >
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
                             <img src="images/team/user4.png" alt="">
-                            <div class="team-social">
-                                <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
-                                <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
-                                <a class="sl-gp" href="#"><i class="icon-googleplus2"></i></a>
-                                <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
-                            </div>
                         </div>
                         <div class="work-info staff-info">
-                            <h5>Will Peters</h5>
-                            <span>Developer</span>
+                            <h5>Amedeo <br> <br> Di Giorgio</h5>
+                            <span>Team Leader</span>
                         </div>
                     </div>
                 </div>
+            </div>
 
+
+
+            <div class="col-1-6" >
+                <div class="content staff-content">
+                    <div class="recent-work staff-img">
+                        <div class="img-wrap staff-img">
+                            <img src="images/team/user4.png" alt="">
+                        </div>
+                        <div class="work-info staff-info">
+                            <h5>Anna <br> <br> Stellato</h5>
+                            <span>Dirigenza</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1-6">
+                <div class="content staff-content">
+                    <div class="recent-work staff-img">
+                        <div class="img-wrap staff-img">
+                            <img src="images/team/user4.png" alt="">
+                        </div>
+                        <div class="work-info staff-info">
+                            <h5>Cesare <br> <br> De Luca</h5>
+                            <span>Dirigenza</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

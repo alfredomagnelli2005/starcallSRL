@@ -7,12 +7,12 @@
             <div class="col-1-1" >
                 <div class="content">
                     <div class="social-set">
-                        <a  href="#0"><i class="fab fa-facebook"></i></a>
-                        <a  href="#0"><i class="fab fa-X"></i></a>
-                        <a  href="#0"><i class="fab fa-linkedin"></i></a>
-                        <a  href="#0"><i class="fab fa-instagram"></i></a>
+                        <a  href="<?php echo $facebook ?>" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a  href="<?php echo $twitter ?>" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a  href="<?php echo $linkedin ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a  href="<?php echo $instagram ?>" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <p class="source-org copyright">© 2024 | All Rights Reserved Developed By <a href="">Alfredo Magnelli</a></p>
+                    <p class="source-org copyright">StarCall S.R.L &nbsp P.I 03409220781 &nbsp © 2024 | Developed By <a href="">Alfredo Magnelli.</a> <br> All Rights Reserved</p>
                 </div>
             </div>
         </div>

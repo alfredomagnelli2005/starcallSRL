@@ -8,14 +8,14 @@
     <title><?php echo $nomeAzienda; ?></title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/simplegrid.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/lightcase.css">
-    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
-    <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/simplegrid.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/lightcase.css">
+    <link rel="stylesheet" href="../js/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="../js/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="../js/owl-carousel/owl.transitions.css" />
+    <link rel="stylesheet" href="../style.css">
 
     <!-- Google Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
             transition: background-color 0.3s ease;
         }
         .header-scrolled {
-            background-color: #0a2045 !important;
+            background-color: #071a29 !important;
         }
     </style>
 </head>
@@ -43,13 +43,14 @@
                     <?php echo $logo; ?>
                     <nav class="navigation">
                         <input type="checkbox" id="nav-button">
+
                         <!-- BURGER MENU (commentato, sistemarlo se necessario) -->
                         <!-- <label for="nav-button"></label> -->
 
                         <ul class="nav-container">
                             <li><a href="#home" class="current">Home</a></li>
-                            <li><a href="#services">Servizi</a></li>
                             <li><a href="#who">Chi siamo?</a></li>
+                            <li><a href="#services">Servizi</a></li>
                             <li><a href="#team">Team</a></li>
                             <li><a href="#contact">Contattaci</a></li>
                         </ul>

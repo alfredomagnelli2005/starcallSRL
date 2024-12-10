@@ -1,48 +1,37 @@
 <!-- Services Section -->
 <div class="wrap services-wrap" id="services">
     <section class="grid grid-pad services">
-        <h2>Our Services</h2>
-        <div class="col-1-4 service-box service-1" >
+        <h2>I nostri servizi</h2>
+        <div class="col-1-3 service-box service-1" >
             <div class="content">
                 <div class="service-icon">
-                    <i class="circle-icon icon-heart4"></i>
+                    <i class="circle-icon fa fa-volume-control-phone"></i>
                 </div>
                 <div class="service-entry">
-                    <h3>Lovely Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
+                    <h3>Inbound</h3>
+                    <p>Il servizio inbound gestisce le chiamate in entrata, offrendo supporto, assistenza e risoluzione di problemi per garantire una buona esperienza cliente.</p>
                 </div>
             </div>
         </div>
-        <div class="col-1-4 service-box service-2" >
+        <div class="col-1-3 service-box service-2" >
             <div class="content">
                 <div class="service-icon">
-                    <i class="circle-icon icon-star4"></i>
+                    <i class="circle-icon fa fa-phone"></i>
                 </div>
                 <div class="service-entry">
-                    <h3>Great Concept</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
+                    <h3>Outbound</h3>
+                    <p>Il servizio outbound comprende le chiamate in uscita, mirate a vendite, promozioni, ricerca di mercato o raccolta di feedback da clienti e prospect.</p>
                 </div>
             </div>
         </div>
-        <div class="col-1-4 service-box service-3">
+        <div class="col-1-3 service-box service-3">
             <div class="content">
                 <div class="service-icon">
-                    <i class="circle-icon icon-display"></i>
+                    <i class="circle-icon fa fa-building"></i>
                 </div>
                 <div class="service-entry">
-                    <h3>Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-1-4 service-box service-4" >
-            <div class="content">
-                <div class="service-icon">
-                    <i class="circle-icon icon-user6"></i>
-                </div>
-                <div class="service-entry">
-                    <h3>User Friendly</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat tellus eget libero pretium, sollicitudin feugiat libero.</p>
+                    <h3>Agenzia</h3>
+                    <p>Un'agenzia fornisce consulenza e servizi creativi per strategie di marketing, comunicazione e pubblicità, migliorando visibilità e performance aziendali.</p>
                 </div>
             </div>
         </div>
