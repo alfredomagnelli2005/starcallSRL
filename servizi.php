@@ -20,7 +20,7 @@
                 </div>
                 <div class="service-entry">
                     <h3>Outbound</h3>
-                    <p>Il servizio outbound comprende le chiamate in uscita, mirate a vendite, promozioni, ricerca di mercato o raccolta di feedback da clienti e prospect.</p>
+                    <p>Il servizio outbound comprende le chiamate in uscita, mirate a vendite, promozioni, ricerca di mercato o raccolta di feedback da già clienti/ ex clienti/ upselling e prospect.</p>
                 </div>
             </div>
         </div>

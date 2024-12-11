@@ -25,7 +25,7 @@
                         </div>
                         <span>Orario Lavorativo:</span>
                         <pre>Lunedì - Venerdì dalle 9:30 alle 20:30
-                   Sabato dalle 10:00 alle 16:00</pre>
+                   Sabato dalle 10:00 alle 15:00</pre>
                     </div>
 
                     <div>
@@ -34,7 +34,9 @@
                         </div>
                         <span>Email:</span>
                         <br>
-                        <a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>
+                        <pre><a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a>
+                   <a href="mailto:<?php echo $emailP; ?>" target="_blank"><?php echo $emailP; ?></a>
+                        </pre>
                     </div>
                 </address>
             </div>
@@ -45,7 +47,7 @@
               <form class="form" action="setup/contactProcess.php" method="POST">
                   <input type="text" name="name" class="comment-name" placeholder="Nome*" required>
                   <input type="email" name="email" class="comment-email" placeholder="Email*" required>
-                  <input type="text" name="subject" class="comment-subject" placeholder="Oggetto">
+                  <input type="text" name="subject" class="comment-subject" placeholder="Oggetto*" required>
                   <textarea name="message" class="required comment-text" placeholder="Messaggio..." required></textarea>
                   <input type="submit" value="Invia Messaggio" class="btn submit comment-submit">
               </form>

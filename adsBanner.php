@@ -15,6 +15,14 @@
                     </div><!-- End of item -->
 
                     <div class="item"><!-- Start of item -->
+                    <a href="https://www.massimaenergia.it/" target="_blank">
+                        <figure>
+                            <img src="images/clients/8.png" alt="Massima Energia" />
+                        </figure>
+                    </a>
+                    </div><!-- End of item -->
+
+                    <div class="item"><!-- Start of item -->
                     <a href="https://www.sky.it/" target="_blank">
                         <figure>
                             <img src="images/clients/2.png" alt="Sky" />
@@ -58,14 +66,6 @@
                     <a href="https://privati.vodafone.it/" target="_blank">
                         <figure>
                             <img src="images/clients/7.png" alt="Vodafone" />
-                        </figure>
-                    </a>
-                    </div><!-- End of item -->
-
-                    <div class="item"><!-- Start of item -->
-                    <a href="https://www.massimaenergia.it/" target="_blank">
-                        <figure>
-                            <img src="images/clients/8.png" alt="Massima Energia" />
                         </figure>
                     </a>
                     </div><!-- End of item -->

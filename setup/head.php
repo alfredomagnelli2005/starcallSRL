@@ -5,17 +5,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title><?php echo $nomeAzienda; ?></title>
 
+    <title><?php echo $nomeAzienda; ?></title>
+    <link rel="icon" href="images/favicon.ico">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/simplegrid.css">
-    <link rel="stylesheet" href="../css/icomoon.css">
-    <link rel="stylesheet" href="../css/lightcase.css">
-    <link rel="stylesheet" href="../js/owl-carousel/owl.carousel.css" />
-    <link rel="stylesheet" href="../js/owl-carousel/owl.theme.css" />
-    <link rel="stylesheet" href="../js/owl-carousel/owl.transitions.css" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/simplegrid.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
+    <link rel="stylesheet" href="style.css">
 
     <!-- Google Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet" type="text/css">
@@ -39,9 +40,13 @@
     <header id="top-header" class="header-home">
         <div class="grid">
             <div class="col-1-1">
+
                 <div class="content">
-                    <?php echo $logo; ?>
+                  <div class="logo-wrap">
+                      <a href="#home" class="logo"> </a>
+                  </div>
                     <nav class="navigation">
+
                         <input type="checkbox" id="nav-button">
 
                         <!-- BURGER MENU (commentato, sistemarlo se necessario) -->

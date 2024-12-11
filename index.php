@@ -7,7 +7,7 @@
                 <div class="grid grid-pad">
                     <div class="col-1-1">
                          <div class="content content-header" >
-                            <h2>STARCALL SRL</h2>
+                            <h2>STARCALL SRL <h3>Contact Center <i style="font-size:40px; color:White;" class="fas">&#xf590;</i></h3></h2>
 
                             <h3>Dove Ogni Chiamata Conta!</h3>
 
@@ -109,7 +109,7 @@
 
                 <?php include("setup/footer.php") ?>
 
-                <!-- <div class="loader-overlay">
+                <div class="loader-overlay">
                     <div class="loader">
                         <div class="bar"></div>
                         <div class="bar"></div>
@@ -117,18 +117,9 @@
                         <div class="bar"></div>
                         <div class="bar"></div>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- JS -->
-                <script src="js/jquery.js"></script>
-                <script src="js/main.js"></script>
-                <script src="js/mixitup.js"></script>
-                <script src="js/smoothscroll.js"></script>
-                <script src="js/jquery.nav.js"></script>
-                <script src="js/owl-carousel/owl.carousel.min.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js"></script>
-                <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-                <script src="js/jquery.counterup.min.js"></script>
-                <script src="js/lightcase.min.js"></script>
+                <?php include("setup/script.php") ?>
+
             </body>
         </html>

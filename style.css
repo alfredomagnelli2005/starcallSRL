@@ -53,7 +53,7 @@ a {
 }
 
 a:hover {
-  color: #16a085;
+  color: #d4d413;
 }
 
 a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
@@ -178,7 +178,7 @@ blockquote p {
 
 .btn:hover, .btn:focus, .btn-current {
   color: #fff;
-  background: #16a085;
+  background: #d4d413;
 }
 
 .btn:hover, .social-set a:hover, .team-social a i:hover, .header-carousel .owl-buttons .owl-prev:hover, .header-carousel .owl-buttons .owl-next:hover {
@@ -312,10 +312,10 @@ blockquote p {
   width: 100%;
   padding: 23px 0;
 /*transition*/
-  -webkit-transition: all .15s linear;
-     -moz-transition: all .15s linear;
-       -o-transition: all .15s linear;
-          transition: all .15s linear;
+  -webkit-transition: all .5s linear;
+     -moz-transition: all .5s linear;
+       -o-transition: all .5s linear;
+          transition: all .5s linear;
 }
 
 #top-header .grid {
@@ -325,11 +325,11 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 160px;
+  height: 50px;
   text-indent: -9999px;
-  background: url(images/logo.svg) no-repeat;
-  background-size: 104px 46px;
+  background: url(images/logoScritta.png) no-repeat;
+  background-size: 160px 50px;
 }
 
 .logo:hover, .logo:focus {
@@ -590,10 +590,10 @@ blockquote p {
      -moz-box-shadow: 0 0 0 2px #484f58;
           box-shadow: 0 0 0 2px #484f58;
 /*transition*/
-  -webkit-transition: all .15s linear;
-     -moz-transition: all .15s linear;
-       -o-transition: all .15s linear;
-          transition: all .15s linear;
+  -webkit-transition: all .5s linear;
+     -moz-transition: all .5s linear;
+       -o-transition: all .5s linear;
+          transition: all .5s linear;
 }
 
 .service-box:hover .circle-icon {
@@ -1079,7 +1079,7 @@ blockquote p {
 }
 
 .plan-wrap .btn-best-plan {
-  background: #484f58;
+  background: #d4d413;
 }
 
 /* *********************************************************
@@ -1348,7 +1348,7 @@ input:not([type=submit]):not([type=file]):focus, textarea:focus {
 ********************************************************* */
 
 footer {
-  background:#2C2D31;
+  background:#071a29;
 }
 
 footer .grid {
@@ -1512,19 +1512,19 @@ footer p, footer a {
 }
 
 .sl-fb i:hover {
-  color: #4f689e;
+  color: #d4d413;
 }
 
 .sl-tw i:hover {
-  color: #74c7d5;
+  color: #d4d413;
 }
 
 .sl-gp i:hover {
-  color: #df5c64;
+  color: #d4d413;
 }
 
 .sl-ln i:hover {
-  color: #017eba;
+  color: #d4d413;
 }
 
 .staff-content:hover .team-social {

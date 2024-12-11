@@ -7,7 +7,7 @@
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
-                            <img src="images/team/user2.png" alt="">
+                            <img src="images/team/user.png" alt="">
                         </div>
                         <div class="work-info staff-info">
                             <h5>Francesco <br> <br>Madeo</h5>
@@ -20,7 +20,7 @@
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
-                            <img src="images/team/user1.png" alt="">
+                            <img src="images/team/user.png" alt="">
                         </div>
                         <div class="work-info staff-info">
                             <h5>Cinzia <br> <br> Catanzaro</h5>
@@ -34,7 +34,7 @@
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
-                            <img src="images/team/user3.png" alt="">
+                            <img src="images/team/user.png" alt="">
                         </div>
                         <div class="work-info staff-info">
                             <h5>Roberta <br> <br> Riganello</h5>
@@ -48,7 +48,7 @@
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
-                            <img src="images/team/user4.png" alt="">
+                            <img src="images/team/user.png" alt="">
                         </div>
                         <div class="work-info staff-info">
                             <h5>Amedeo <br> <br> Di Giorgio</h5>
@@ -64,7 +64,7 @@
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
-                            <img src="images/team/user4.png" alt="">
+                            <img src="images/team/user.png" alt="">
                         </div>
                         <div class="work-info staff-info">
                             <h5>Anna <br> <br> Stellato</h5>
@@ -78,7 +78,7 @@
                 <div class="content staff-content">
                     <div class="recent-work staff-img">
                         <div class="img-wrap staff-img">
-                            <img src="images/team/user4.png" alt="">
+                            <img src="images/team/user.png" alt="">
                         </div>
                         <div class="work-info staff-info">
                             <h5>Cesare <br> <br> De Luca</h5>

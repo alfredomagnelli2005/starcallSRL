@@ -8,7 +8,6 @@
                 <div class="content">
                     <div class="social-set">
                         <a  href="<?php echo $facebook ?>" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a  href="<?php echo $twitter ?>" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a  href="<?php echo $linkedin ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a  href="<?php echo $instagram ?>" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
