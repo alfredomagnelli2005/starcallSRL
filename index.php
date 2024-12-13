@@ -7,9 +7,11 @@
                 <div class="grid grid-pad">
                     <div class="col-1-1">
                          <div class="content content-header" >
-                            <h2>STARCALL SRL <h3>Contact Center <i style="font-size:40px; color:White;" class="fas">&#xf590;</i></h3></h2>
+                            <h1><font color="White">STARCALL SRL</font><h3>Contact Center <i style="font-size:40px; color:White;" class="fas">&#xf590;</i></h3></h1>
 
-                            <h3>Dove Ogni Chiamata Conta!</h3>
+                            <h3><pre>Dove Ogni Chiamata
+
+Conta!</pre></h3>
 
                             <a class="btn btn-ghost" href="#services">Scopri di più</a>
 
@@ -103,7 +105,7 @@
                 <?php include("contactForm.php") ?>
 
                 <!-- CurveDown -->
-                <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <svg class="curveDownColor" xmlns="https://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
                 </svg>
 

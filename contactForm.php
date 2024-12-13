@@ -42,17 +42,22 @@
             </div>
         </div>
         <br>
-         <div class="col-1-2 pleft-25" >
-            <div class="content contact-form">
-              <form class="form" action="setup/contactProcess.php" method="POST">
-                  <input type="text" name="name" class="comment-name" placeholder="Nome*" required>
-                  <input type="email" name="email" class="comment-email" placeholder="Email*" required>
-                  <input type="text" name="subject" class="comment-subject" placeholder="Oggetto*" required>
-                  <textarea name="message" class="required comment-text" placeholder="Messaggio..." required></textarea>
-                  <input type="submit" value="Invia Messaggio" class="btn submit comment-submit">
-              </form>
-            </div>
-        </div>
+        <div class="col-1-2 pleft-25">
+   <div class="content contact-form">
+       <form class="form" action="setup/contactProcess.php" method="POST" enctype="multipart/form-data">
+           <input type="text" name="name" class="comment-name" placeholder="Nome*" required>
+           <input type="email" name="email" class="comment-email" placeholder="Email*" required>
+           <input type="text" name="subject" class="comment-subject" placeholder="Oggetto*" required>
+           <textarea name="message" class="required comment-text" placeholder="Messaggio..." required></textarea>
+
+           <input type="file" name="attachment" class="comment-attachment">
+           <p>*Per candidature inviare il CV (max 5mb in .pdf o .docx)*</p>
+
+           <input type="submit" value="Invia Messaggio" class="btn submit comment-submit">
+       </form>
+   </div>
+</div>
+
     </div>
 </div>
 <!-- End Contact Section -->
