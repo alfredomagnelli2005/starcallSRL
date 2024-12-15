@@ -3,7 +3,7 @@
     <section class="grid grid-pad services">
         <h2>I nostri servizi</h2>
 
-        <div class="col-1-4 service-box service-1" >
+        <div class="col-1-5 service-box service-1" >
             <div class="content">
                 <div class="service-icon">
                     <i class="circle-icon fa fa-volume-control-phone"></i>
@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <div class="col-1-4 service-box service-2" >
+        <div class="col-1-5 service-box service-2" >
             <div class="content">
                 <div class="service-icon">
                     <i class="circle-icon fa fa-phone"></i>
@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <div class="col-1-4 service-box service-3">
+        <div class="col-1-5 service-box service-3">
             <div class="content">
                 <div class="service-icon">
                     <i class="circle-icon fa fa-building"></i>
@@ -39,17 +39,32 @@
             </div>
         </div>
 
-        <div class="col-1-4 service-box service-4">
+        <div class="col-1-5 service-box service-4">
             <div class="content">
                 <div class="service-icon">
-                    <i class="circle-icon fa fa-building"></i>
+                    <i class="circle-icon fa fa-file-invoice"></i>
                 </div>
                 <div class="service-entry">
-                    <h3>Servizio vuoto</h3>
-                    <p>Descrizione servizio vuoto</p>
+                    <h3>CAB</h3>
+                    <p>
+                      Il CAB (Centro Assistenza Bollette) offre supporto per gestire problemi legati al pagamento delle bollette di luce, gas e acqua, come errori, rateizzazioni e reclami.</p>
                 </div>
             </div>
         </div>
+
+        <div class="col-1-5 service-box service-4">
+            <div class="content">
+                <div class="service-icon">
+                    <i class="circle-icon fa fa-exchange-alt"></i>
+                </div>
+                <div class="service-entry">
+                    <h3>Peer-to-peer</h3>
+                    <p>
+                      Il servizio peer-to-peer (P2P) consente a utenti di scambiarsi risorse, denaro o file direttamente tra loro, senza intermediari. Viene usato in servizi di pagamento, condivisione di file e prestiti.</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 </div>
 <!-- End Services Section -->
